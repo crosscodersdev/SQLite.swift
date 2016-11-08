@@ -7,6 +7,6 @@ let package = Package(
 	targets: [
 		Target(name: "SQLite iOS", dependencies: [])
 	],
-	dependencies: urls.map { .Package(url: $0, majorVersion: 0, minor: 11) },
+	dependencies: urls.map { .Package(url: $0, majorVersion: 0, minor: 90) },
 	exclude: []
 )
